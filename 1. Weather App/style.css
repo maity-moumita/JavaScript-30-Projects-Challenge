@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background-color: rgb(4, 4, 32);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home {
+    border-radius: 50px;
+    margin: 50px;
+    padding: 10px;
+    align-items: center;
+    height: auto;
+    width: 80vw;
+    background: linear-gradient(135deg, rgb(70, 113, 178), rgb(123, 52, 113));
+    padding-bottom: 100px;
+}
+@media (min-width: 1024px) { 
+    .home {
+        width: 40vw;
+    }
+}
+
+.search_div {
+    display: flex;
+    justify-content: center;
+}
+
+.Search {
+    padding: 6px;
+    border-radius: 54px;
+    width: 35vw;
+    height: 4vh;
+    margin-top: 40px;
+    padding: 11px;
+    padding-left: 30px;
+    border: 1px solid white;
+}
+@media (min-width: 1024px) { 
+    .Search{
+        padding: 6px;
+        border-radius: 54px;
+        width: 20vw;
+        height: 4vh;
+        margin-top: 40px;
+        padding: 11px;
+        padding-left: 30px;
+        border: 2px solid white;
+    }
+    
+}
+
+
+.Search_Icon {
+    background-color: transparent;
+    height: 50px;
+    width: 50px;
+    margin-left: 15px;
+    margin-top: 40px;
+    border-radius: 50%;
+}
+
+.weather {
+    text-align: center;
+}
+
+.sun-cloud {
+    height: 35vh;
+    display: block;
+    margin: 0 auto;
+}
+
+.sun-h {
+    font-size: 300%;
+    color: white;
+}
+
+.sun-p {
+    font-size: xx-large;
+    color: white;
+}
+.humiwind {
+    display: flex;
+    justify-content:space-evenly ;
+}
+.hum-img{
+    margin-top: 50px;
+    height: 10vh;
+}
+h3,p{
+    color: white;
+    font-size: 130%;
+    margin-top: 10px;
+}

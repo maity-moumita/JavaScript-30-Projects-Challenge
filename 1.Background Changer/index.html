@@ -4,10 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Background Changer</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        #blue{
+            background-color: blue;
+            border: 2px solid black;
+        }   
+        #red{
+            background-color: red;
+            border: 2px solid black;
+        }   
+        #crimson{
+            background-color: crimson;
+            border: 2px solid black;
+        }   
+        #teal{
+            background-color: teal;
+            border: 2px solid black;
+        }   
+        .button{
+            margin: 10px;
+            padding: 20px;
+        }
+    </style>
 </head>
-<body>
-    <div>
+<body>  
         <h1>Color Scheme Switcher</h1>
-    </div>
+
+       <div>
+        <span class="button" id="blue"> Blue </span>
+        <span class="button" id="red">Red</span>
+        <span class="button" id="crimson">Crimson</span>
+        <span class="button" id="teal">Teal</span>
+       </div>
+
+        <h3>Try Clicking on one of the Colors above to change the Background color of the page!</h3>
+
+        <script src="index.js"></script>
 </body>
 </html>
